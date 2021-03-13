@@ -1,6 +1,6 @@
 //Puff-chan
 jQuery(document).ready(function($){
-    if (/Android||iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
       return
     }
     var isShow = false, lock = false;
