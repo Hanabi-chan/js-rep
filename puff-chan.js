@@ -20,7 +20,7 @@ jQuery(document).ready(function($){
     $btn.click(function () {
       lock = true
       $btn.addClass('ani-leave')
-      $("html, body").animate({ scrollTop: 0 }, 800);
+      $("html, body").animate({ scrollTop: 0 }, 8000);
       setTimeout(function () {
         $btn.removeClass('ani-leave').addClass('leaved')
       }, 390)
