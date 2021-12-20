@@ -29,7 +29,7 @@ jQuery(document).ready(function($){
       }, 0)
       setTimeout(function () {
         $btn.removeClass('load')
-      }, 3000);
+      }, 800);
       setTimeout(function () {
         lock = false
         isShow = false
