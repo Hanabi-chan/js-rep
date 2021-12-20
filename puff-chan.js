@@ -20,10 +20,10 @@ jQuery(document).ready(function($){
     $btn.click(function () {
       lock = true
       $btn.addClass('ani-leave')
-      $("html, body").animate({ scrollTop: 0 }, 8000);
+      $("html, body").animate({ scrollTop: 0 }, 800); //rychlost vraceni nahoru v ms
       setTimeout(function () {
         $btn.removeClass('ani-leave').addClass('leaved')
-      }, 390)
+      }, 3900)
       setTimeout(function () {
         $btn.addClass('ending')
       }, 0)
