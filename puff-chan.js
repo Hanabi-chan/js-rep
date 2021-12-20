@@ -23,13 +23,13 @@ jQuery(document).ready(function($){
       $("html, body").animate({ scrollTop: 0 }, 800); //rychlost vraceni nahoru v ms
       setTimeout(function () {
         $btn.removeClass('ani-leave').addClass('leaved')
-      }, 3900) //
+      }, 390) //
       setTimeout(function () {
         $btn.addClass('ending')
       }, 0)
       setTimeout(function () {
         $btn.removeClass('load')
-      }, 1000);
+      }, 2000);
       setTimeout(function () {
         lock = false
         isShow = false
